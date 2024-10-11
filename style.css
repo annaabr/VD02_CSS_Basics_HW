@@ -1,11 +1,20 @@
 .card{
    width: 600px;
    height: 450px;
-   background-image: linear-gradient(to right, Aquamarine, SkyBlue);
+   background-image: linear-gradient(to right, #505050, #ffffff);
    border-radius: 30px;
    border-style: dotted;
    border-width: 10px;
    border-color: gold;
+   transition: 3s;
+}
+
+.card:hover {
+   background-image: linear-gradient(to right, Aquamarine, SkyBlue);
+   border-style: dotted;
+   border-width: 15px;
+   border-color: darkorange;
+   transition: 3s;
 }
 
 #P1 {
