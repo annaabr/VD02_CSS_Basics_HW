@@ -1,0 +1,93 @@
+.card{
+   width: 600px;
+   height: 450px;
+   background-image: linear-gradient(to right, Aquamarine, SkyBlue);
+   border-radius: 30px;
+   border-style: dotted;
+   border-width: 10px;
+   border-color: gold;
+}
+
+#P1 {
+   border-radius: 20px;
+   position: relative;
+   left: 30%;
+}
+
+#P2 {
+   border-radius: 20px;
+   position: relative;
+   left: 35%;
+}
+
+#P3 {
+   border-radius: 20px;
+   position: relative;
+   left: 35%;
+}
+
+.photo {
+   height: 15%;
+   padding: 30px;
+}
+
+.name {
+   padding: 40px;
+   height: 5%;
+}
+
+.e-mail {
+   padding: 20px;
+   height: 5%;
+}
+
+a {
+   font-size: 20pt;
+   font-family: Arial;
+   font-style: italic;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:active{
+    color: red;
+}
+
+.e-mail::before{
+   content: 'Электронный адрес: ';
+   font-size: 30px;
+   border-radius: 10px;
+   background-color: bisque;
+}
+
+.birthday {
+   font-size: 20pt;
+   padding: 20px;
+   height: 5%;
+}
+
+.birthday::before{
+   content: 'День рождения: ';
+   font-size: 30px;
+   border-radius: 10px;
+   background-color: aqua;
+}
+
+.town {
+   font-size: 20pt;
+   padding: 20px;
+   height: 5%;
+}
+
+.town::before{
+   content: 'Город: ';
+   font-size: 30px;
+   border-radius: 10px;
+   background-color: gold;
+}
